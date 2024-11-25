@@ -1,0 +1,42 @@
+.player-container{
+    width: 90%;
+    background-color: white;
+    margin-top: 40%;
+    margin-left: 5%;
+    
+}
+
+img{
+    width: 95%;
+    margin: 0.3rem 2.5%;
+    height: 14rem;
+}
+
+.title{
+    font-size: x-large;
+    color: black;
+    font-weight: 800;
+    width: 80%;
+    max-width: 20rem;
+    max-height: 1.7rem;
+    margin: auto 10%;
+    text-align: center;
+    overflow: hidden;
+    word-wrap: break-word;;
+}
+
+.music-menu{
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.menu-item{
+    color: black;
+    
+    text-align: center;
+}
+
+

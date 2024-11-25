@@ -1,0 +1,77 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.carousel-content {
+display: flex;
+overflow: hidden;
+width: 100%; 
+scroll-behavior: smooth;
+}
+
+.artist {
+margin: 0 10px; 
+text-align: center;
+background-color: transparent;
+width: 100%;
+}
+
+.artist > img {
+    border-radius: 50%; 
+    width: 100px; 
+    height: 100px; 
+}
+
+.carousel > button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 4px; 
+}
+
+.title-library{
+    color: antiquewhite;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.playlists-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+}
+.playlists-list > .playlist-card{
+    background-color: #1c1c1e;
+    width: 98%;
+    margin-left: 1%;
+    height: 20rem;
+    border-radius: 1rem;
+    color:antiquewhite;
+    border: 2px solid white ;
+    margin-bottom: 0.3rem;
+}
+.playlists-list > .playlist-card > img{
+    margin-top: 1rem;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 1rem;
+    height: 15rem;
+}
+.playlists-list > .playlist-card > .title{
+    display: block;
+    color:antiquewhite;
+    font-size: larger;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 0.5rem;
+    height: 1.65rem;
+    max-width: 90%;
+    margin-left: 0;
+    text-align: left;
+    margin-left: 5%;
+}
+  

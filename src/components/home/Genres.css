@@ -1,0 +1,62 @@
+.genres-container{
+    margin-top: 2rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.genre-card{
+    margin-bottom: 1rem;
+    height: 5rem;
+    color: #000;
+    background-color: black;
+    width: 90%;
+    border-radius: 0.4rem;
+    height: 7rem;
+    text-align: center;
+    position: relative; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    overflow: hidden; 
+
+         
+}
+
+.genre-card > span{
+    position: absolute;
+   
+    font-weight: 700;
+    font-size: xx-large;
+    color: white;
+    z-index: 2;
+}
+
+.genre-card > img{
+    height: 7rem;
+    width: 100%;
+    margin: 0;
+    border-radius: 0.4rem;
+}
+
+.rock-genre{
+    text-align: center;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    pointer-events: none; 
+    z-index: 1;
+}
+
+
+
+
+
